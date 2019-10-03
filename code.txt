@@ -1,3 +1,4 @@
+#Description: This is the txt filr of below code.
 def board(b):
     print('    |     |    ')
     print( b[7]+'   |  '+b[8]+'  |  '+b[9])
