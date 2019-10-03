@@ -93,4 +93,4 @@ while True:
                     turn='Player 1'
     if not replay():
         break
-print('\nThank You for playing')     
+print('\nThank You for playing.')     
