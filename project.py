@@ -13,7 +13,7 @@ def board(b):
 def ply_inp():
     mrk=''
     while mrk!='X' and mrk!='O':
-        mrk=input('Welcome to Tic Tac Toe.\n Player 1: Choose \'X\' or \'O\' : ')
+        mrk=input('Welcome to Tic Tac Toe game.\n Player 1: Choose \'X\' or \'O\' : ')
     player1=mrk
     if player1=='X':
         player2='O'
@@ -46,7 +46,7 @@ def replay():
     return input('Want to play again? (Yes/No) : ').lower()=='y'
 print('Welcome to Tic Tac Toe!')
 b=['#','1','2','3','4','5','6','7','8','9']
-print('Enter the positions according to following matrix : \n')
+print('Enter the positions according to the following matrix : \n')
 board(b)
 while True:
     b=[' ']*10
