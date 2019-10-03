@@ -1,5 +1,6 @@
 #Description: This is the txt filr of below code.
 def board(b):
+#This function is used to print board.
     print('    |     |    ')
     print( b[7]+'   |  '+b[8]+'  |  '+b[9])
     print('----+-----+----')
